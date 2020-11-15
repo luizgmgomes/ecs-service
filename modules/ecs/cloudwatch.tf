@@ -38,5 +38,5 @@ resource "aws_cloudwatch_metric_alarm" "alb_request_count_metric" {
   period                    = "60"
   statistic                 = "Sum"
   threshold                 = "80"
-  alarm_description         = "This metric monitors ECS for RAM utilization "
+  alarm_description         = "This metric monitors the number of access to LB in a short period"
 }

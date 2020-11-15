@@ -58,6 +58,10 @@ variable "asg_name" {
     type = string
 }
 
+variable "asg_ssh_ip" {
+    type = string
+}
+
 variable "asg_max_size" {
     type = number
 }

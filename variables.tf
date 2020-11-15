@@ -75,6 +75,10 @@ variable "ecs_service_desired_count" {
 
 ### ASG
 
+variable "asg_ssh_ip" {
+  type = string
+  default = "0.0.0.0/0"
+}
 variable "instance_key_name" {
   type = string
 }

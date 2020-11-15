@@ -8,7 +8,7 @@
 
 ## This repo components
     # VPC module
-        Where you are able to build VPN, subnets, IGW, NAT Gateways and so on.
+        Where you are able to build VPC, subnets, IGW, NAT Gateways and so on.
     # ECS module
         To build the ECS cluster, services and tasks
     # APP

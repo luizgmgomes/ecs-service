@@ -29,6 +29,7 @@ module "ecs" {
   instance_public_key       = var.instance_public_key
   instance_type             = var.instance_type
   instance_ami_id           = var.instance_ami_id
+  asg_ssh_ip                = var.asg_ssh_ip
   asg_name                  = var.asg_name
   asg_max_size              = var.asg_max_size
   asg_min_size              = var.asg_min_size
